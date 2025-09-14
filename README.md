@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛡️ Osto.one – p1-frontend
 
-## Getting Started
+A modern, responsive **Next.js** frontend for Osto.one — a cybersecurity platform delivering enterprise-grade protection for startups.  
+This project is built with **Next.js 15**, **React 19**, **Tailwind CSS** and enhanced with cutting-edge libraries like **Three.js** for 3D visuals, **react-globe.gl** for interactive globes, and **lucide-react** for crisp icons.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- ⚡ **Blazing-fast Next.js frontend** with server components & optimized routing.
+- 🖥️ **Responsive UI** with glassmorphism styling and smooth scroll effects (Lenis).
+- 🌐 **Interactive 3D elements** using `@react-three/fiber` and `@react-three/drei`.
+- 🌎 **Global visualization** with `react-globe.gl`.
+- 🖌️ **Modern iconography** via `lucide-react`.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 15](https://nextjs.org)
+- **UI:** Tailwind CSS + glassmorphism components
+- **3D / Graphics:** Three.js, @react-three/fiber, @react-three/drei, OGL
+- **Animations & Smooth Scroll:** Lenis
+- **Icons:** lucide-react
+- **Globe Visualization:** react-globe.gl
+
+---
+
+## 🚀 Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/your-username/p1-frontend.git
+cd p1-frontend
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Build for production:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Screenshots / Gallery
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Below is a grid for your app screenshots.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Landing Page | How it works | About Page | Security Page |
+|--------------|-----------------------|----------------------|---------------------|
+| ![Landing](public/screenshots/landing.png) | ![How it works](public/screenshots/endpoint.png) | ![About](public/screenshots/about.png) | ![Security](public/screenshots/security.png) |
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Live Demo
+
+View the deployed site here:  
+[**https://p1frontend.vercel.app/**](https://p1frontend.vercel.app/)
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+### 🙌 Acknowledgements
+
+- [Next.js](https://nextjs.org)
+- [Three.js](https://threejs.org)
+- [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- [lucide-react](https://lucide.dev)
+- [react-globe.gl](https://react-globe.gl)
+- [Lenis](https://lenis.studiofreight.com)
+
+## Made with ❤️ by 
+Dilpreet Singh Sainbhee
+Aaditya Tyagi 
