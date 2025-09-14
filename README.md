@@ -81,12 +81,6 @@ View the deployed site here:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 ### 🙌 Acknowledgements
 
 - [Next.js](https://nextjs.org)
