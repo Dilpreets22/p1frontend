@@ -7,6 +7,7 @@ import Price from '@/components/Price';
 import Second from "@/components/Second";
 import Priority from "@/components/Priority";
 import Testimonials from '@/components/Testimonials';
+import Footer from '@/components/Footer';
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
     <Price/>
     <Priority/>
     <Testimonials/>
+    <Footer/>
    </div>
   );
 }
